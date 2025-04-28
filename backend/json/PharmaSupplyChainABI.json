@@ -1,0 +1,285 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "batch_id",
+        "type": "uint256"
+      }
+    ],
+    "name": "acceptBatchAsDistributor",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "batch_id",
+        "type": "uint256"
+      }
+    ],
+    "name": "acceptTransferAtPharmacy",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "addressNames",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "batchIDs",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "batches",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "medicine_name",
+        "type": "string"
+      },
+      {
+        "internalType": "address",
+        "name": "manufacturer",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "distributor",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "pharmacy",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "manufacture_date",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "expiry_date",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bool",
+        "name": "distributor_accepted",
+        "type": "bool"
+      },
+      {
+        "internalType": "bool",
+        "name": "pharmacy_accepted",
+        "type": "bool"
+      },
+      {
+        "internalType": "string",
+        "name": "certificate_hash",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "batch_id",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "medicine_name",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "manufacture_date",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "expiry_date",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "certificate_hash",
+        "type": "string"
+      }
+    ],
+    "name": "createBatch",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getAllBatchIDs",
+    "outputs": [
+      {
+        "internalType": "uint256[]",
+        "name": "",
+        "type": "uint256[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "batch_id",
+        "type": "uint256"
+      }
+    ],
+    "name": "getBatchInfo",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "medicine_name",
+        "type": "string"
+      },
+      {
+        "internalType": "address",
+        "name": "manufacturer",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "distributor",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "pharmacy",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "manufacture_date",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "expiry_date",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bool",
+        "name": "distributor_accepted",
+        "type": "bool"
+      },
+      {
+        "internalType": "bool",
+        "name": "pharmacy_accepted",
+        "type": "bool"
+      },
+      {
+        "internalType": "string",
+        "name": "certificate_hash",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_addr",
+        "type": "address"
+      }
+    ],
+    "name": "getNameByAddress",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_addr",
+        "type": "address"
+      },
+      {
+        "internalType": "string",
+        "name": "_name",
+        "type": "string"
+      }
+    ],
+    "name": "registerAddressName",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "batch_id",
+        "type": "uint256"
+      },
+      {
+        "internalType": "address",
+        "name": "pharmacy_address",
+        "type": "address"
+      }
+    ],
+    "name": "requestTransferToPharmacy",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
