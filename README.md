@@ -11,6 +11,16 @@ A blockchain-based pharma supply chain tracking system. Built using:
 
 ---
 
+# 📽️ Video Tutorial
+
+Watch the full walkthrough here:
+
+[![Watch the video](https://img.youtube.com/vi/b_a03j7Jzs8/maxresdefault.jpg)](https://www.youtube.com/watch?v=b_a03j7Jzs8)
+
+> (Click the image above or [watch on YouTube](https://www.youtube.com/watch?v=b_a03j7Jzs8)).
+
+---
+
 # 📅 Project Structure
 
 ```
@@ -193,16 +203,6 @@ contract.functions.registerAddressName("0x789...", "Shifo Pharmacy").transact({"
 - Telegram Bot for easy user interface
 - Streamlit-based Web UI
 - QR code scanning and batch verification
-
----
-
-# 📽️ Video Tutorial
-
-Watch the full walkthrough here:
-
-[![Watch the video](https://img.youtube.com/vi/b_a03j7Jzs8/maxresdefault.jpg)](https://www.youtube.com/watch?v=b_a03j7Jzs8)
-
-> (Click the image above or [watch on YouTube](https://www.youtube.com/watch?v=b_a03j7Jzs8)).
 
 ---
 
